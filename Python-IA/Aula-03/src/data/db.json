@@ -1,0 +1,55 @@
+{
+  "turma": "Python para IA — 2025/1",
+  "professor": "Edie Correia Santana",
+  "nota_aprovacao": 7.0,
+  "alunos": [
+    {
+      "id": 1,
+      "nome": "Ana Lima",
+      "curso": "Ciência de Dados",
+      "notas": [8.5, 9.0, 7.5, 8.0]
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Costa",
+      "curso": "Engenharia de Software",
+      "notas": [5.5, 6.0, 4.5, 5.0]
+    },
+    {
+      "id": 3,
+      "nome": "Carla Souza",
+      "curso": "Ciência de Dados",
+      "notas": [9.5, 10.0, 9.8, 9.2]
+    },
+    {
+      "id": 4,
+      "nome": "Diego Faria",
+      "curso": "Sistemas de Informação",
+      "notas": [7.0, 7.5, 8.0, 6.5]
+    },
+    {
+      "id": 5,
+      "nome": "Elena Ramos",
+      "curso": "Engenharia de Software",
+      "notas": [3.0, 4.5, 5.0, 3.5]
+    },
+    {
+      "id": 6,
+      "nome": "Felipe Neto",
+      "curso": "Ciência de Dados",
+      "notas": [6.0, 6.5, 7.0, 8.0]
+    },
+    {
+      "id": 7,
+      "nome": "Gabi Moura",
+      "curso": "Sistemas de Informação",
+      "notas": [9.0, 8.5, 9.0, 9.5]
+    },
+    {
+      "id": 8,
+      "nome": "Hugo Alves",
+      "curso": "Engenharia de Software",
+      "notas": [7.5, 7.0, 8.0, 7.5]
+    }
+  ]
+}

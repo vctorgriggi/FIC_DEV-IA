@@ -1,0 +1,73 @@
+{
+  "turma": "Python para IA — 2025/1",
+  "professor": "Edie Correia Santana",
+  "total_alunos": 8,
+  "aprovados": 5,
+  "reprovados": 3,
+  "media_turma": 7.22,
+  "melhor_aluno": "Carla Souza",
+  "pior_aluno": "Elena Ramos",
+  "cursos": [
+    "Ciência de Dados",
+    "Engenharia de Software",
+    "Sistemas de Informação"
+  ],
+  "resultados": [
+    {
+      "id": 1,
+      "nome": "Ana Lima",
+      "curso": "Ciência de Dados",
+      "media": 8.25,
+      "status": "Aprovado"
+    },
+    {
+      "id": 2,
+      "nome": "Bruno Costa",
+      "curso": "Engenharia de Software",
+      "media": 5.25,
+      "status": "Reprovado"
+    },
+    {
+      "id": 3,
+      "nome": "Carla Souza",
+      "curso": "Ciência de Dados",
+      "media": 9.62,
+      "status": "Aprovado"
+    },
+    {
+      "id": 4,
+      "nome": "Diego Faria",
+      "curso": "Sistemas de Informação",
+      "media": 7.25,
+      "status": "Aprovado"
+    },
+    {
+      "id": 5,
+      "nome": "Elena Ramos",
+      "curso": "Engenharia de Software",
+      "media": 4.0,
+      "status": "Reprovado"
+    },
+    {
+      "id": 6,
+      "nome": "Felipe Neto",
+      "curso": "Ciência de Dados",
+      "media": 6.88,
+      "status": "Reprovado"
+    },
+    {
+      "id": 7,
+      "nome": "Gabi Moura",
+      "curso": "Sistemas de Informação",
+      "media": 9.0,
+      "status": "Aprovado"
+    },
+    {
+      "id": 8,
+      "nome": "Hugo Alves",
+      "curso": "Engenharia de Software",
+      "media": 7.5,
+      "status": "Aprovado"
+    }
+  ]
+}

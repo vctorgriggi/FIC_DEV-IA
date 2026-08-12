@@ -1,0 +1,81 @@
+{
+  "total_cpfs": 8,
+  "total_telefones": 10,
+  "total_emails": 10,
+  "cpfs": [
+    "123.456.789-09",
+    "987.654.321-00",
+    "456.789.012-34",
+    "789.012.345-67",
+    "234.567.890-12",
+    "119.123.456-78",
+    "345.678.901-23",
+    "567.890.123-45"
+  ],
+  "telefones": [
+    "(11) 98765-4321",
+    "(21) 98765-1234",
+    "(31) 3344-5566",
+    "(78) 90123-4567",
+    "(11) 91234-5678",
+    "(41) 91234-5678",
+    "(41) 3344-7788",
+    "(45) 6789-0123",
+    "(51) 98765-4321",
+    "(61) 99876-5432"
+  ],
+  "emails": [
+    "ana.paula@empresa.com.br",
+    "brunocosta@gmail.com",
+    "c.mendes@corp.org",
+    "carla.mendes1990@hotmail.com",
+    "d.ferreira@startup.io",
+    "elisa.santos@tech.com",
+    "f.oliveira@data.com.br",
+    "fernando@work.net",
+    "gabriela.lima@consultoria.org",
+    "henrique.souza@empresa.gov"
+  ],
+  "registros": [
+    {
+      "cpf": "123.456.789-09",
+      "telefone": "(11) 98765-4321",
+      "email": "ana.paula@empresa.com.br"
+    },
+    {
+      "cpf": "987.654.321-00",
+      "telefone": "(21) 98765-1234",
+      "email": "brunocosta@gmail.com"
+    },
+    {
+      "cpf": "456.789.012-34",
+      "telefone": "(31) 3344-5566",
+      "email": "c.mendes@corp.org"
+    },
+    {
+      "cpf": "789.012.345-67",
+      "telefone": "(11) 98765-4321",
+      "email": "d.ferreira@startup.io"
+    },
+    {
+      "cpf": "234.567.890-12",
+      "telefone": "(11) 91234-5678",
+      "email": "elisa.santos@tech.com"
+    },
+    {
+      "cpf": "345.678.901-23",
+      "telefone": "(41) 91234-5678",
+      "email": "f.oliveira@data.com.br"
+    },
+    {
+      "cpf": "456.789.012-34",
+      "telefone": "(51) 98765-4321",
+      "email": "gabriela.lima@consultoria.org"
+    },
+    {
+      "cpf": "567.890.123-45",
+      "telefone": "(61) 99876-5432",
+      "email": "henrique.souza@empresa.gov"
+    }
+  ]
+}

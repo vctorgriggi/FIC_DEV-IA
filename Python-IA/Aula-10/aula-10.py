@@ -247,8 +247,9 @@ for barra in barras:
 
 # ── Gráfico 3: Distribuição das notas (histograma) ────────────
 ax3 = axes[2]
-# todas_notas = notas["nota"].values
-todas_notas = notas["nota"].to_numpy()
+todas_notas = notas[
+    "nota"
+].to_numpy()  # Mini-lab reccomends .value, but .to_numpy() is more modern and recommended by pandas documentation.
 n, bins, patches = ax3.hist(
     todas_notas, bins=12, color="#2E86C1", edgecolor="white", alpha=0.85
 )

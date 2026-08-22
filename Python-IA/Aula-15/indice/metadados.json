@@ -1,0 +1,50 @@
+[
+  {
+    "chunk_id": "contrato_c001",
+    "fonte": "contrato_servicos.pdf",
+    "pagina": 1,
+    "texto": "O presente contrato de prestacao de servicos tem vigencia de 24 meses, contados a partir da data de assinatura. Qualquer rescisao antecipada por parte do contratante implicara multa equivalente a 20% do valor total remanescente do contrato."
+  },
+  {
+    "chunk_id": "contrato_c002",
+    "fonte": "contrato_servicos.pdf",
+    "pagina": 1,
+    "texto": "O pagamento devera ser efetuado mensalmente, ate o dia 10 de cada mes, mediante emissao de nota fiscal. O atraso no pagamento acarretara juros de 1% ao mes e multa moratoria de 2% sobre o valor em atraso."
+  },
+  {
+    "chunk_id": "contrato_c003",
+    "fonte": "contrato_servicos.pdf",
+    "pagina": 2,
+    "texto": "As partes elegem o foro da comarca de Sao Paulo para dirimir quaisquer litigios decorrentes deste instrumento, com renuncia expressa a qualquer outro, por mais privilegiado que seja."
+  },
+  {
+    "chunk_id": "manual_c001",
+    "fonte": "manual_produto.pdf",
+    "pagina": 3,
+    "texto": "Para instalar o software, execute o instalador como administrador e siga as instrucoes na tela. O sistema requer Windows 10 ou superior, com minimo de 8 GB de RAM e 20 GB de espaco em disco."
+  },
+  {
+    "chunk_id": "manual_c002",
+    "fonte": "manual_produto.pdf",
+    "pagina": 5,
+    "texto": "Em caso de falha durante a instalacao, verifique se o antivirus esta desativado temporariamente. Erros comuns incluem permissao negada, porta em uso e dependencia ausente. Consulte o log em C:\\Temp\\install.log."
+  },
+  {
+    "chunk_id": "relatorio_c001",
+    "fonte": "relatorio_q1.pdf",
+    "pagina": 1,
+    "texto": "A receita liquida do primeiro trimestre de 2025 atingiu R$ 42,3 milhoes, representando crescimento de 18% em relacao ao mesmo periodo do ano anterior. O resultado operacional foi de R$ 8,7 milhoes, com margem de 20,6%."
+  },
+  {
+    "chunk_id": "relatorio_c002",
+    "fonte": "relatorio_q1.pdf",
+    "pagina": 2,
+    "texto": "Os custos operacionais cresceram 12% no trimestre, principalmente devido ao aumento nos precos de materia-prima e ao reajuste salarial aplicado em janeiro. A empresa implementou medidas de eficiencia que devem gerar economia de R$ 2 milhoes anuais a partir do segundo semestre."
+  },
+  {
+    "chunk_id": "relatorio_c003",
+    "fonte": "relatorio_q1.pdf",
+    "pagina": 3,
+    "texto": "As vendas no canal digital cresceram 45% no trimestre, respondendo agora por 32% da receita total. O aplicativo mobile registrou 1,2 milhao de downloads e avaliacao media de 4,7 estrelas nas lojas de aplicativos."
+  }
+]

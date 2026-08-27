@@ -1,0 +1,7 @@
+Python e uma linguagem de programacao de alto nivel, interpretada e de proposito geral.
+
+Uma funcao lambda e uma funcao anonima criada com a palavra-chave lambda. Ela e adequada para expressoes pequenas, por exemplo: dobro = lambda numero: numero * 2.
+
+Listas sao colecoes mutaveis e ordenadas. Tuplas sao colecoes ordenadas e imutaveis. Dicionarios armazenam pares de chave e valor.
+
+Uma excecao pode ser tratada com try e except. O bloco finally e executado independentemente de uma excecao ocorrer.

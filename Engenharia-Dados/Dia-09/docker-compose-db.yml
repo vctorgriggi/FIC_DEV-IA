@@ -1,0 +1,21 @@
+services:
+  postgres_db:
+    image: postgres:18
+    container_name: dia09-postgres
+    environment:
+      POSTGRES_USER: superset_user
+      POSTGRES_PASSWORD: superset_password
+      POSTGRES_DB: superset_data
+    ports:
+      - "5433:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql
+      - ./init.sql:/docker-entrypoint-initdb.d/01-vendas.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U superset_user -d superset_data"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  pgdata:

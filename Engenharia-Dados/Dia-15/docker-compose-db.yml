@@ -1,0 +1,19 @@
+version: "3.9"
+
+services:
+  postgres_story:
+    image: postgres:16-alpine
+    container_name: postgres_story
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: superset_data
+      POSTGRES_USER: superset_user
+      POSTGRES_PASSWORD: superset_password
+    ports:
+      - "5433:5432"
+    volumes:
+      - postgres_story_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/01_init.sql:ro
+
+volumes:
+  postgres_story_data:

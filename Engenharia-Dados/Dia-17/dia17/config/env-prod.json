@@ -1,0 +1,74 @@
+{
+  "variables": [
+    {
+      "name": "INMET_BASE_URL",
+      "value": "https://apitempo.inmet.gov.br",
+      "description": "Host da API do INMET"
+    },
+    {
+      "name": "IBGE_BASE_URL",
+      "value": "https://servicodados.ibge.gov.br/api/v3",
+      "description": "Host da API de agregados do IBGE"
+    },
+    {
+      "name": "HTTP_USER_AGENT",
+      "value": "Mozilla/5.0 (compatible; ApacheHop/2.19; FIC-DEV-IA)",
+      "description": "User-Agent exigido pelo INMET"
+    },
+    {
+      "name": "DATA_REF",
+      "value": "2026-09-16",
+      "description": "Data de referencia (yyyy-MM-dd) da consulta meteorologica"
+    },
+    {
+      "name": "IBGE_AGREGADO_POP",
+      "value": "6579",
+      "description": "Agregado IBGE - populacao residente estimada"
+    },
+    {
+      "name": "IBGE_VARIAVEL_POP",
+      "value": "9324",
+      "description": "Variavel IBGE - populacao residente estimada"
+    },
+    {
+      "name": "IBGE_PERIODO_POP",
+      "value": "2024",
+      "description": "Periodo da populacao"
+    },
+    {
+      "name": "IBGE_AGREGADO_AREA",
+      "value": "1301",
+      "description": "Agregado IBGE - area territorial"
+    },
+    {
+      "name": "IBGE_VARIAVEL_AREA",
+      "value": "615",
+      "description": "Variavel IBGE - area total das unidades territoriais"
+    },
+    {
+      "name": "IBGE_PERIODO_AREA",
+      "value": "2010",
+      "description": "Periodo da area territorial"
+    },
+    {
+      "name": "IBGE_NIVEL",
+      "value": "N6[all]",
+      "description": "Nivel de localidade: N6 = municipios"
+    },
+    {
+      "name": "DIR_ENTRADA",
+      "value": "/opt/etl/dia17/entrada",
+      "description": "Arquivos de apoio (de-para)"
+    },
+    {
+      "name": "DIR_STAGING",
+      "value": "/opt/etl/dia17/staging",
+      "description": "Camada bronze/staging"
+    },
+    {
+      "name": "DIR_SAIDA",
+      "value": "/opt/etl/dia17/saida",
+      "description": "Camada final do ETL"
+    }
+  ]
+}
